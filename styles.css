@@ -9,9 +9,10 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     perspective-origin: center center;
-/* 
-    justify-content: center;
-    align-items: center; */
+}
+
+.parallax-group {
+    transform-style: preserve-3d;
 }
 
 div img {
@@ -31,4 +32,14 @@ div img {
 .layer3 {
     transform: translateZ(-2px);
     margin: 0 auto;
+}
+
+.green-background {
+    background: #25ff9d8a;
+}
+.red-background {
+    background: rgba(255, 60, 60, 0.527);
+}
+.blue-background {
+    background: rgba(58, 58, 255, 0.514);
 }
